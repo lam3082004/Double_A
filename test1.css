@@ -1,0 +1,27 @@
+body
+{
+    margin:0;
+    max-height: 100%;
+}
+.dropdown-menu
+{
+    background-color: powderblue;
+}
+.dropdown-menu a:hover
+{
+    color:blue;
+}
+.dropdown-item
+{
+    text-align: center;
+    font-size: 28px;
+}
+.dropdown-item:hover
+{
+    color:blue;
+}
+.nav-item2  {
+    position: fixed;
+    bottom:2%;
+    left:93%;  }
+    
