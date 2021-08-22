@@ -8,6 +8,54 @@
     <link rel="stylesheet" href="setting.css">
 </head>
 <body>
+    <div class="bs-example">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary fixed-top">
+        <a href="#" class="navbar-brand">logo</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse2">
+            <div class="navbar-nav">
+                <span style="font-size:30px;cursor:pointer;color:aliceblue;text-decoration:none; position:relative; left:60%;" onclick="openNavbar()">&#9776; </span>
+                
+                <script>
+                function openNavbar() {
+                document.getElementById("mySidenav").style.width = "180px";
+                }
+                
+                function closeNavbar() {
+                document.getElementById("mySidenav").style.width = "0";
+                }
+                </script></a></a>
+        <div class="nav-item dropdown active" style="left:750%;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Khu vực</a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Quận, huyện</a>
+                <a href="#" class="dropdown-item">Thành phố</a>
+                <a href="#" class="dropdown-item">Tỉnh thành</a>
+                <a href="#" class="dropdown-item">Quốc gia</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        <form class="form-inline ml-auto" style="position:relative; right:20%;">
+        <input type="text" class="form-control mr-sm-2" style=" width:550px" placeholder="Tìm kiếm...">
+        <button type="submit" class="btn btn-outline-light" style=" width:150px"><img src="./Image/search.png" alt="search"style="height:20px"></button>
+        </form>
+
+        <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg" 
+            style="width:50px; height:50px;">
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+        <button class="dropdown-item" type="button">Thông tin cá nhân</button>
+        <button class="dropdown-item" type="button">Cài đặt</button>
+        </div>
+    </div>
+    </nav>
+    </div>
     <div class="wrapper bg-white mt-sm-5">
     <h4 class="pb-4 border-bottom">Account settings</h4>
     <div class="d-flex align-items-start py-3 border-bottom"> <img src="./Image/Ảnh 1.jpg" class="img" alt="">
@@ -42,6 +90,7 @@
             </div>
             <div class="ml-auto"> <button class="btn danger">Deactivate</button> </div>
         </div>
+    </div>
     </div>
 </div> 
 </body>
