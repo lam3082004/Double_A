@@ -12,6 +12,9 @@
     left: 2;
     padding:0;
     background-color: powderblue;
+    background-image: url(https://www.wallpapertip.com/wmimgs/8-89429_blue-background-for-phone.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top:60px;
@@ -23,9 +26,9 @@
 /*elements in nav bar*/
   .sidenav a 
   {
-    padding: 10px 20px 20px 10px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 26px;
     color: black;
     display: block;
     transition: 0.1s;
@@ -123,7 +126,7 @@ form.example input[type=text]
   width: 30%;
   background: #f1f1f1;
   margin-top:10px;
-  margin-left: 123px;
+  margin-left: 200px;
 }
 /*---------------------*/
 
