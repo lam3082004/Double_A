@@ -5,18 +5,23 @@
     padding: 0;
     box-sizing: border-box
 }
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: aliceblue
+body{
+    background-image: url(./Image/bgr.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
-
+.logo img{
+    width: 120px;;
+    height: 130px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
 .wrapper {
     padding: 30px 50px;
     border: 1px solid #ddd;
     border-radius: 15px;
     margin: 10px auto;
-    max-width: 600px
+    max-width: 800px
 }
 
 h4 {
