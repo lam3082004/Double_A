@@ -5,8 +5,9 @@
     padding: 0;
     box-sizing: border-box
 }
+
 body{
-    background-image: url(./Image/bgr.jpg);
+    background-image: url(./Image/bgrdcm.jpg);
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -21,7 +22,7 @@ body{
     border: 1px solid #ddd;
     border-radius: 15px;
     margin: 10px auto;
-    max-width: 800px
+    max-width: 800px;
 }
 
 h4 {

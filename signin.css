@@ -2,7 +2,8 @@
 
 body {
     background: #E1EBEC;
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./Image/bgrdcm.jpg);
 }
 .row img {
     width: 100px;
@@ -133,13 +134,14 @@ u {
 }
 
 p.exist {
-    font-size: 9px;
-    color: #C2C2CC
+    font-size: 10px;
+    color: #c3c3f7;
+    margin-top: 0px;
 }
 
 p.exist span {
     cursor: pointer;
-    color: #ABA5D3
+    color: #ABA5D3;
 }
 
 @media screen and (max-width: 993px) {
