@@ -3,11 +3,14 @@
 body {
     background: #E1EBEC;
     font-family: 'Poppins', sans-serif;
-    background-image: url(./Image/bgrdcm.jpg);
+    background-image: url(https://files.123freevectors.com/wp-content/original/131586-pink-and-blue-low-poly-abstract-background-design.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
+
 .row img {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     margin-left: 50px;
 }
 .row {
@@ -34,12 +37,11 @@ span.txt {
 
 .greeting {
     padding-top: 200px;
-    padding-right: 90px;
     text-align: center;
 }
 
 h6.mt-3 {
-    padding-right: 70px;
+    text-align:center;
 }
 
 .footer {
