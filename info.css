@@ -1,9 +1,11 @@
 body {
-    background-color: #f9f9fa
+  background-image: url(https://img.wallpapersafari.com/desktop/1280/1024/11/20/tOuqxe.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
   }
   
   .padding {
-    padding: 3rem !important
+    padding: 8rem !important
   }
   
   .user-card-full {
@@ -32,7 +34,7 @@ body {
   
   .bg-c-lite-green {
     background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
-    background: linear-gradient(to right, #ee5a6f, #f29263)
+    background: linear-gradient(to right, #89EE5A, #63B9F2)
   }
   
   .user-profile {
@@ -131,3 +133,4 @@ body {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out
   }
+  

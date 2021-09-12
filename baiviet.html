@@ -17,38 +17,105 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <div  class="container mt-5"  >
-        
-        <div class="d-flex justify-content-center row" style="width:100%;"><br>
-       
-        
-        
-            <div class="col-md-8" id="baiviet"> <h3>Bài viết</h3><hr>
-                <div class="d-flex flex-column comment-section">
-                    <div class="bg-white p-2">
-                        <div class="d-flex flex-row user-info"><img class="rounded-circle" src="./Image/RpzrMR2.jpg" width="40">
-                            <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Marry Andrews</span><span class="date text-black-50">Chia sẻ công khai - tháng 1 2020</span></div>
+        <style>
+                body {
+                  font-family: "Lato", sans-serif;
+                }
+                
+                .sidenav2 {
+                  height: 100%;
+                  width: 0;
+                  position: fixed;
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  background-color: #111;
+                  overflow-x: hidden;
+                  transition: 0.5s;
+                  padding-top: 60px;
+                  text-align:center;
+                }
+                
+                .sidenav2 a {
+                  padding: 8px 8px 8px 32px;
+                  text-decoration: none;
+                  font-size: 25px;
+                  color: #818181;
+                  display: block;
+                  transition: 0.3s;
+                
+                }
+                
+                .sidenav2 a:hover{
+                  color: #f1f1f1;
+                }
+                
+                .sidenav2 .closebtn {
+                  position: absolute;
+                  top: 0;
+                  right: 25px;
+                  font-size: 36px;
+                  margin-left: 50px;
+                }
+                
+                @media screen and (max-height: 450px) {
+                  .sidenav2 {padding-top: 15px;}
+                  .sidenav2 a {font-size: 18px;}
+                }
+                </style>
+                </head>
+                <body>
+                
+                <div id="mySidenav" class="sidenav2">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a><div  class="container mt-5"  >
+                        
+                        <div class="d-flex justify-content-center row" style="width:100%;"><br>
+                       
+                        
+                        
+                            <div class="col-md-8" id="baiviet"> <h3>Bài viết</h3><hr>
+                                <div class="d-flex flex-column comment-section">
+                                    <div class="bg-white p-2">
+                                        <div class="d-flex flex-row user-info"><img class="rounded-circle" src="./Image/RpzrMR2.jpg" width="40">
+                                            <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Marry Andrews</span><span class="date text-black-50">Chia sẻ công khai - tháng 1 2020</span></div>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white">
+                                        <div class="d-flex flex-row fs-12">
+                                            <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Thích</span></div>
+                                            <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1" style="color:#006EFF;">Bình luận</span></div>
+                                            <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1" style="color:black;">Chia sẻ</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light p-2">
+                                        <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="./Image/avatar-icon-images-4.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                                        <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Đăng bình luận</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Hủy</button></div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
                         </div>
-                        <div class="mt-2">
-                            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white">
-                        <div class="d-flex flex-row fs-12">
-                            <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Thích</span></div>
-                            <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1" style="color:#006EFF;">Bình luận</span></div>
-                            <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1" style="color:black;">Chia sẻ</span></div>
-                        </div>
-                    </div>
-                    <div class="bg-light p-2">
-                        <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="./Image/avatar-icon-images-4.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
-                        <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Đăng bình luận</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Hủy</button></div>
-                    </div>
+                    </div></a>
                 </div>
-                <hr>
-            </div>
-        </div>
-    </div>
+                
+                <h2>Animated Sidenav Example Full Width</h2>
+                <p>Click on the element below to open the navigation menu.</p>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+                
+                <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "100%";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+    
 
   
 </body>

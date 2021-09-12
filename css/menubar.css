@@ -27,21 +27,27 @@
 /*elements in nav bar*/
   .sidenav a 
   {
-    padding: 20px 20px 20px 20px;
+    padding: 2px 5px 20px 30px;
     text-decoration: none;
     font-size: 26px;
     color: #000000;
     display: block;
     transition: 0.1s;
-    position: relative;
-    bottom:10%;
-    top:10%;
+
   }
 
   .sidenav a:hover 
   {
     color: #f1f1f1;
 
+  }
+  .attack{
+    padding: 2px 5px 20px 30px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000;
+    display: block;
+    transition: 0.1s;
   }
   .attack:hover{
     -ms-transform: scale(1.2); /* IE 9 */
@@ -53,10 +59,10 @@
 /*X*/
   .sidenav .closebtn 
   {
-    position: absolute;
-    top:1;
+
     font-size: 50px;
-    margin-left: 70%;
+    text-align: right;
+    text-align: top;
   }
   /*---------------------*/
 
